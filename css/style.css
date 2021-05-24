@@ -16,6 +16,7 @@ body {
   color: var(--main-font-color);
   letter-spacing: 0.03em;
   width: 1600px;
+  
 }
 .list{
   list-style: none;
@@ -41,7 +42,7 @@ body {
   font-size: 26px;
   line-height: 1.1738;
 }
-.logotype{
+.logo>span{
  color: var(--accent-color);
 }
 .nav-link,
@@ -70,10 +71,6 @@ body {
   text-decoration: inherit;
 }
   
-.current {
-  color: var(--accent-color);
-  text-decoration: inherit;
-}
 .hero-one {
   background-color: var(--hero-background);
 }
@@ -97,12 +94,17 @@ body {
   line-height: 1.875;
   letter-spacing: 0.06em;
 }
+.list{
+  list-style: none;
+}
 .privilege{
   color: var(--black);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.1428;
   text-transform: uppercase;
+  
+  
 }
 .idea{
   font-size: 14px;
@@ -136,14 +138,18 @@ body {
   font-size: 14px;
   line-height: 1.714;
 }
-.footer .contacts {
+
+.basement .logo {
+  color: var(--white);
+}
+.basement .contacts {
   color: var(--footer-contacts);
 }
-.footer .contacts:focus,
-.footer .contacts:hover {
+.basement .contacts:focus,
+.basement .contacts:hover {
   color: var(--accent-color);
 }
-.location {
+.address {
   color: var(--white);
   font-style: normal;
 }
